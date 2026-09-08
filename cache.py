@@ -1,9 +1,4 @@
-"""Exact-match response cache. In-memory by default; Redis backend stubbed
-for multi-instance production deployments.
 
-Cache key = hash of (messages, model-tier). Two requests with the exact same
-conversation get the exact same cached response until TTL expires.
-"""
 from __future__ import annotations
 
 import hashlib
