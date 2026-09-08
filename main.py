@@ -1,8 +1,4 @@
-"""OpenAI-compatible gateway: routes requests, caches responses, falls back
-across providers, and logs cost/latency for every call.
 
-Run with: uvicorn gateway.main:app --reload
-"""
 from __future__ import annotations
 
 import time
