@@ -1,9 +1,3 @@
-"""Decides which provider handles a given request.
-
-Current policy is a simple heuristic: input token count + keyword rules,
-evaluated top-to-bottom with first-match-wins. Swap `select_provider` for a
-real classifier later without touching the rest of the gateway.
-"""
 from __future__ import annotations
 
 from gateway.config import GatewayConfig, ProviderConfig
