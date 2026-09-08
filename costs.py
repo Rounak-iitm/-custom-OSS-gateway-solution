@@ -1,8 +1,4 @@
-"""Append-only cost/latency log, one JSON line per request.
 
-Swap `log_request` for a real sink (Postgres, Prometheus, etc.) later —
-callers don't need to change.
-"""
 from __future__ import annotations
 
 import json
